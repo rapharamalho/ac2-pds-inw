@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+
+header {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header img {
+    height: 50px;
+}
+
+header a {
+    color: #000000;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.principal {
+    background-image: url('img/fundo.png');
+    background-size: 100%; 
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 1000px;
+}
+
+.principal h1 {
+    margin-top: 40px;
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: right;
+    color: #fff;
+    margin-right: 120px;
+}
+
+.principal p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: #fff;
+    max-width: 500px;
+    margin-left: 1500px  
+}
+
+
+.principal input[type="button"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2FBD59;
+    color: #fff;
+    align-items: right;
+    margin-left: 1600px;
+    border-radius: 10px; 
+}
+
+.artistas { 
+    text-align: left;
+    margin-bottom: 20px; 
+}
+
+.artistas h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+
+.artistas img {
+    width: 450px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.artistas a {
+    color: #1ED760;
+    margin-top: 20px;
+    text-align: right;
+    margin-left: 1800px;
+}
+
+.CADASTRO {
+    text-align: left;
+    background-color: #000000;
+}
+
+.CADASTRO h1 {
+    font-size: 24px;
+    margin-bottom: 0px;
+    padding: 10px;
+    text-align: left;
+    margin-left: 70px;
+    color: #fff;
+}
+
+.CADASTRO input[type="email"],
+.CADASTRO input[type="password"] {
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 10px;
+    align-items: left;
+    border-radius: 10px;
+    margin-right: 20px; 
+    margin-left: 50px;
+}
+
+
+.CADASTRO input[type="button"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2FBD59;
+    color: #fff;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-right: 20px; 
+    margin-left: 130px;
+}
+
+.CADASTRO .imagem {
+    margin-top: -160px;
+    height: 200px;
+    width: 200px;
+   float: right;
+   margin-right: 50px;
+}
+
+
+footer {
+    overflow: hidden; 
+    background-color: #07200E; 
+}
+
+.esquerda {
+    float: left;
+    padding: 20px;
+}
+
+.esquerda img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.direita {
+    float: right;
+    padding: 20px;
+}
+
+.direita img {
+    height: 30px;
+    margin-left: 10px;
+}
+
+@media (max-width: 600px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #ffffff;
+    }
+    
+    header {
+        background-color: #ffffff;
+        color: #000000;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    header img {
+        height: 50px;
+    }
+    
+    header a {
+        color: #000000;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+    
+    .principal {
+        background-image: url('img/fundo.png');
+        background-size: 100%; 
+        padding: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+        height: 630px;
+    }
+    
+    .principal h1 {
+        margin-top: 40px;
+        font-size: 36px;
+        margin-bottom: 10px;
+        text-align: right;
+        color: #fff;
+    }
+    
+    .principal p {
+        font-size: 18px;
+        margin-bottom: 20px;
+        text-align: left;
+        color: #fff;
+        max-width: 500px;
+        margin-left: 800px;
+    }
+    
+    .principal input[type="button"] {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #2FBD59   ;
+        color: #fff;
+        border-radius: 10px;
+    }
+    
+    .artistas { 
+        text-align: left;
+        margin-bottom: 20px; 
+    }
+    
+    .artistas h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+    
+    .artistas img {
+        width: 250px;
+        margin-bottom: 10px;
+        padding: 30px;
+    }
+    
+    .artistas a {
+        color: #1ED760;
+        margin-top: 20px;
+        float: center;
+    }
+    
+    .CADASTRO {
+        text-align: left;
+        background-color: black;
+    }
+    
+    .CADASTRO h1 {
+        font-size: 24px;
+        margin-bottom: 0px;
+        padding: 10px;
+        text-align: left;
+        color: #fff;
+        margin-left: 90px
+    }
+    
+    .CADASTRO input[type="email"],
+    .CADASTRO input[type="password"] {
+        width: 10px; 
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+    
+    .CADASTRO input[type="button"] {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #2FBD59;
+        color: #fff;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+    
+    .CADASTRO .imagem {
+        margin-top: 20px; 
+        height: auto; 
+        width: 50%; 
+        float: none; 
+        margin-left: 90px;
+    }
+    
+    footer {
+        overflow: hidden; 
+        background-color: #07200E; 
+    }
+    
+   
+    .esquerda {
+        float: left;
+        padding: 20px;
+    }
+    
+    .esquerda img {
+        height: 30px;
+        margin-right: 10px;
+    }
+    
+    .direita {
+        float: right;
+        padding: 20px;
+    }
+    
+    .direita img {
+        height: 30px;
+        margin-left: 10px;
+    }
+    
+    @media only screen and (max-width: 768px) {
+        header {
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        header a {
+            margin: 10px 0;
+        }
+        
+        .principal h1 {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .principal p {
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+        
+        .principal input[type="button"] {
+            margin-left: auto;
+            margin-right: auto;
+            margin-left: 100px;
+        }
+        .artistas h1 {
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+        .artistas img {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-left: 30px;
+        }
+        
+        .artistas a {
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            text-align: center;
+            margin-left: 150px;
+        }
+        
+        .CADASTRO input[type="email"],
+        .CADASTRO input[type="password"] {
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-left: 90px;
+        }
+        
+        .CADASTRO input[type="button"] {
+            margin-left: auto;
+            margin-right: auto;
+            margin-left: 130px;
+        }
+    }
+}
